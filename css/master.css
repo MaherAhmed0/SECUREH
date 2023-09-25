@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f2f3f7;
     font-family: 'Bellota Text', cursive;
@@ -129,7 +133,7 @@ main {
     color: #36187d;
     font-size: 20px;
     font-weight: bold;
-    width: 40%;
+    width: 53%;
     float: left;
     margin-top: 20px;
 }
@@ -186,5 +190,28 @@ main {
 .card .description {
     color: #6c758f;
     font-size: 20px;
+    font-weight: 600;
+}
+
+.about {
+    overflow: auto;
+    padding: 192px 0 32px;
+}
+
+.about .heading {
+    float: left;
+    width: 50%;
+}
+
+.about .heading .section-heading {
+    font-size: 45px;
+    margin-top: 0;
+}
+
+.about .about-text {
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    color: #6c758f;
     font-weight: 600;
 }
