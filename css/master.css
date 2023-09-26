@@ -11,7 +11,6 @@ html {
 body {
     background-color: #f2f3f7;
     font-family: 'Bellota Text', cursive;
-    margin: 0;
 }
 
 .container {
@@ -19,6 +18,21 @@ body {
     margin: auto;
 }
 
+.section-heading {
+    margin-top: 120px;
+    font-size: 64px;
+    color: #36187d;
+}
+
+.section-para {
+    font-size: 20px;
+    color: #6c758f;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+/* Header */
+/* -------------------------------------------------------------------- */
 header {
     overflow: auto;
     width: 100%;
@@ -93,6 +107,9 @@ nav {
     background-color: #F8F9FB;
 }
 
+/* Main */
+/* -------------------------------------------------------------------- */
+
 main {
     height: 100%;
     padding: 260px 0 192px;
@@ -138,21 +155,11 @@ main {
     margin-top: 20px;
 }
 
+/* Features */
+/* -------------------------------------------------------------------- */
+
 .features {
     text-align: center;
-}
-
-.section-heading {
-    margin-top: 120px;
-    font-size: 64px;
-    color: #36187d;
-}
-
-.section-para {
-    font-size: 20px;
-    color: #6c758f;
-    font-weight: 600;
-    padding-bottom: 50px;
 }
 
 .section-row {
@@ -163,6 +170,7 @@ main {
     padding: 32px 32px;
     float: left;
     width: 32%;
+    border: none;
 }
 
 .center {
@@ -193,6 +201,9 @@ main {
     font-weight: 600;
 }
 
+/* About */
+/* -------------------------------------------------------------------- */
+
 .about {
     overflow: auto;
     padding: 192px 0 32px;
@@ -208,10 +219,72 @@ main {
     margin-top: 0;
 }
 
+.about .section-para {
+    margin-top: 15px;
+}
+
 .about .about-text {
     width: 50%;
     float: left;
     font-size: 20px;
     color: #6c758f;
     font-weight: 600;
+}
+
+/* Products */
+/* -------------------------------------------------------------------- */
+
+.products {
+    margin-top: 96px;
+}
+
+.products .section-heading {
+    text-align: center;
+    font-size: 45px;
+    margin: 0 0 48px 0;
+}
+
+.products .products-content {
+    overflow: auto;
+}
+
+.products .products-content .product-item {
+    float: left;
+    width: 47%;
+    margin: 1.5%;
+    padding: 0 16px;
+    border: none;
+}
+
+.products .products-content .product-card {
+    padding: 32px;
+    border-radius: 50px;
+    box-shadow: 7px 7px 15px #d2dce9, -7px -7px 20px white;
+}
+
+.products .products-content .top-line {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.products .products-content .top-line h2 {
+    float: left;
+    font-size: 27px;
+    color: #36187d;
+}
+
+.products .products-content .top-line p {
+    float: right;
+    font-size: 27px;
+    color: #6c758f;
+}
+
+.products .products-content .bottom-line {
+    margin-bottom: 16px;
+}
+
+.products .products-content .bottom-line p strong {
+    font-size: 19px;
+    color: #6c758f;
+    line-height: 30px;
 }
