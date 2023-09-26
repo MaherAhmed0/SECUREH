@@ -110,7 +110,7 @@ nav {
 /* Main */
 /* -------------------------------------------------------------------- */
 
-main {
+.landing {
     height: 100%;
     padding: 260px 0 192px;
 }
@@ -252,8 +252,8 @@ main {
 
 .products .products-content .product-item {
     float: left;
-    width: 47%;
-    margin: 1.5%;
+    width: 48%;
+    margin: 2% 1%;
     padding: 0 16px;
     border: none;
 }
@@ -369,4 +369,74 @@ main {
     text-decoration: none;
     color: #0196e3;
     font-size: 19px;
+}
+
+/* Team */
+/* -------------------------------------------------------------------- */
+
+.team {
+    margin-top: 96px;
+}
+
+.team .section-heading {
+    font-size: 45px;
+    padding-left: 32px;
+    margin-bottom: 48px;
+}
+
+.team-member {
+    padding: 0 16px;
+    margin-bottom: 60px;
+}
+
+.team-member-card {
+    overflow: auto;
+    padding: 48px 64px;
+    border-radius: 48px;
+    box-shadow: 7px 7px 15px #d2dce9, -7px -7px 13px white;
+}
+
+.team-member-card figure {
+    float: left;
+}
+
+.team-member-card figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.team-member-card .member-details {
+    float: left;
+    padding-left: 48px;
+    margin: 32px 0;
+}
+
+.team-member-card .member-details .member-name {
+    font-size: 27px;
+    color: #36187d;
+}
+
+.team-member-card .member-details .member-position {
+    font-size: 19px;
+    color: #6c758f;
+    margin-top: 15px;
+}
+
+.team-member-card i {
+    display: block;
+    float: right;
+    margin: 32px 0;
+    font-size: 40px;
+    color: #0196e3;
+    padding: 32px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 15px #d2dce9, -7px -7px 13px white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.team-member-card i:hover {
+    background-color: #F8F9FB;
 }
