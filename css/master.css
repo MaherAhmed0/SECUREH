@@ -217,10 +217,12 @@ main {
 .about .heading .section-heading {
     font-size: 45px;
     margin-top: 0;
+    padding-left: 25px;
 }
 
 .about .section-para {
     margin-top: 15px;
+    padding-left: 25px;
 }
 
 .about .about-text {
@@ -287,4 +289,84 @@ main {
     font-size: 19px;
     color: #6c758f;
     line-height: 30px;
+}
+
+/* Events */
+/* -------------------------------------------------------------------- */
+
+.events {
+    margin-top: 96px;
+}
+
+.events .section-heading {
+    text-align: center;
+    font-size: 45px;
+    margin: 0 0 32px 0;
+}
+
+.events .events-content {
+    overflow: auto;
+}
+
+.events .events-content .event {
+    float: left;
+    padding: 0 16px;
+    width: 48%;
+    margin: 2% 1% 2%;
+    border: none;
+    cursor: pointer;
+}
+
+.event .event-card {
+    padding: 16px;
+    border-radius: 50px;
+    background-color: #f2f3f7;
+    box-shadow: 7px 7px 15px #d2dce9, -7px -7px 20px white;
+}
+
+.event-card figure {
+    overflow: hidden;
+    border-radius: 48px;
+    width: 100%;
+    height: 300px;
+}
+
+.event-card figure img {
+    width: 100%;
+    height: 300px;
+    transition: 0.3s;
+}
+
+.events .events-content .event:hover figure img {
+    transform: scale(1.05);
+}
+
+.event-content {
+    padding: 24px 16px;
+}
+
+.event-content .date {
+    font-size: 19px;
+    color: #bec2cf;
+    margin-bottom: 10px;
+}
+
+.event-content .event-name {
+    font-size: 27px;
+    color: #36187d;
+    margin-bottom: 10px;
+}
+
+.event-content .event-description {
+    font-size: 17.7px;
+    color: #36187d;
+    line-height: 28px;
+    margin-bottom: 15px;
+    margin: 16px 0;
+}
+
+.event-content a {
+    text-decoration: none;
+    color: #0196e3;
+    font-size: 19px;
 }
