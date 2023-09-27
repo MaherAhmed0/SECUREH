@@ -104,7 +104,7 @@ nav {
 }
 
 .icons-list a .ff {
-    padding: 25.6px 28.5px;
+    padding: 25.6px 29.5px;
 }
 
 .icons-list a i:hover {
@@ -671,4 +671,54 @@ progress::-webkit-progress-value {
     line-height: 28px;
     color: #6c758f;
     margin-bottom: 32px;
+}
+
+/* Contacts */
+/* -------------------------------------------------------------------- */
+
+.contacts {
+    margin-top: 96px;
+}
+
+.contacts .section-heading {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.contacts .section-para {
+    text-align: center;
+}
+
+.contacts .contacts-content {
+    overflow: auto;
+}
+
+.contacts-item {
+    float: left;
+    padding: 0 32px;
+    width: 32%;
+}
+
+.contacts-card {
+    padding: 48px 32px;
+    text-align: center;
+    border-radius: 48px;
+    box-shadow: 7px 7px 15px #d2dce9, -7px -7px 13px white;
+}
+
+.contacts-card i {
+    font-size: 60px;
+    color: #0196e3;
+    margin-bottom: 22px;
+}
+
+.contacts-card .contact-type {
+    font-size: 27px;
+    color: #36187d;
+    margin-bottom: 12px;
+}
+
+.contacts-card .contact {
+    font-size: 20px;
+    color: #6c758f;
 }
