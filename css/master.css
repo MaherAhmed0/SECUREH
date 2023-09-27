@@ -103,6 +103,10 @@ nav {
     transition: 0.3s;
 }
 
+.icons-list a .ff {
+    padding: 25.6px 28.5px;
+}
+
 .icons-list a i:hover {
     background-color: #F8F9FB;
 }
@@ -576,7 +580,6 @@ progress::-webkit-progress-value {
 .clients .section-heading {
     text-align: center;
     font-size: 45px;
-    color: #36187d;
     margin-bottom: 32px;
 }
 
@@ -584,7 +587,7 @@ progress::-webkit-progress-value {
     overflow: auto;
     padding: 32px;
     margin: 0 16px;
-    border-radius: 38px;
+    border-radius: 48px;
     box-shadow: 7px 7px 15px #d2dce9, -7px -7px 13px white;
 }
 
@@ -601,4 +604,71 @@ progress::-webkit-progress-value {
     border-radius: 50%;
     padding: 1rem;
     object-fit: contain;
+}
+
+/* Testimonials */
+/* -------------------------------------------------------------------- */
+
+.testimonials {
+    margin-top: 96px;
+}
+
+.testimonials .section-heading {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.testimonials-content {
+    overflow: auto;
+    padding: 0 16px;
+}
+
+.testimonials-item {
+    float: left;
+    padding: 16px 32px;
+    width: 48%;
+    margin: 0 1%;
+}
+
+.testimonials-card {
+    padding: 32px;
+    border-radius: 48px;
+    box-shadow: 7px 7px 15px #d2dce9, -7px -7px 13px white;
+}
+
+.testimonials-card .details {
+    overflow: auto;
+    margin-bottom: 32px;
+}
+
+.testimonials-card .details img {
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.testimonials-card .details div {
+    float: left;
+    padding-top: 8px;
+}
+
+.testimonials-card .details div h2 {
+    font-size: 22px;
+    color: #36187d;
+    margin-bottom: 10px;
+}
+
+.testimonials-card .details div p {
+    font-size: 18px;
+    color: #6c758f;
+}
+
+.testimonials-card .content {
+    font-size: 19px;
+    line-height: 28px;
+    color: #6c758f;
+    margin-bottom: 32px;
 }
