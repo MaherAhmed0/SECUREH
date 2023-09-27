@@ -518,3 +518,50 @@ progress::-webkit-progress-value {
     background-color: #36187d;
     border-radius: 50px;
 }
+
+/* Frequently Asked Questions */
+/* -------------------------------------------------------------------- */
+
+.faq {
+    margin-top: 96px;
+}
+
+.faq .section-heading {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 32px;
+}
+
+.faq-item {
+    padding: 16px 32px;
+    margin-bottom: 16px;
+}
+
+.faq-card {
+    overflow: auto;
+    padding: 32px;
+    border-radius: 38px;
+    box-shadow: 7px 7px 15px #d2dce9, -7px -7px 13px white;
+}
+
+.faq-card .question {
+    float: left;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #6c758f;
+}
+
+.faq-card i {
+    display: block;
+    float: right;
+    font-size: 19px;
+    padding: 22px 26px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 15px #d2dce9, -7px -7px 13px white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.faq-card i:hover {
+    background-color: #F8F9FB;
+}
