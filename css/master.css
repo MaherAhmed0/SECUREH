@@ -565,3 +565,40 @@ progress::-webkit-progress-value {
 .faq-card i:hover {
     background-color: #F8F9FB;
 }
+
+/* Clients */
+/* -------------------------------------------------------------------- */
+
+.clients {
+    margin-top: 96px;
+}
+
+.clients .section-heading {
+    text-align: center;
+    font-size: 45px;
+    color: #36187d;
+    margin-bottom: 32px;
+}
+
+.clients-content {
+    overflow: auto;
+    padding: 32px;
+    margin: 0 16px;
+    border-radius: 38px;
+    box-shadow: 7px 7px 15px #d2dce9, -7px -7px 13px white;
+}
+
+.clients-content figure {
+    float: left;
+    padding: 16px 0;
+}
+
+.clients-content figure img {
+    width: 150px;
+    margin: 17px;
+    background: white;
+    height: 150px;
+    border-radius: 50%;
+    padding: 1rem;
+    object-fit: contain;
+}
