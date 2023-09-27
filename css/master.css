@@ -691,11 +691,12 @@ progress::-webkit-progress-value {
 
 .contacts .contacts-content {
     overflow: auto;
+    padding: 16px;
 }
 
 .contacts-item {
     float: left;
-    padding: 0 32px;
+    padding: 32px;
     width: 32%;
 }
 
@@ -721,4 +722,77 @@ progress::-webkit-progress-value {
 .contacts-card .contact {
     font-size: 20px;
     color: #6c758f;
+}
+
+/* Subscribe */
+/* -------------------------------------------------------------------- */
+
+.subscribe {
+    margin-top: 96px;
+}
+
+.subscribe .section-heading {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.subscribe .section-para {
+    text-align: center;
+}
+
+.subscribe-form {
+    width: 60%;
+    margin: auto;
+}
+
+.input-email {
+    width: 70%;
+    height: 70px;
+    padding: 24px 32px;
+    margin-right: 5px;
+    box-shadow: inset 1px 1px 2px 0 #d2dce9;
+    background-color: #edeff3;
+    font-size: 17.5px;
+    border-radius: 48rem;
+    border: none;
+    outline: none;
+    color: #000000;
+}
+
+.input-button {
+    width: 28%;
+    height: 65px;
+    padding: 16px 48px;
+    border-radius: 48px;
+    color: white;
+    background-color: #35b8fc;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.input-button:hover {
+    background-color: #04a6fa;
+}
+
+/* Footer */
+/* -------------------------------------------------------------------- */
+.footer {
+    margin-top: 96px;
+    padding: 32px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #6c758f;
+}
+
+.footer .copyright {
+    margin-bottom: 12px;
+}
+
+.footer .copyright span {
+    font-weight: bold;
+    color: #0196e3;
 }
